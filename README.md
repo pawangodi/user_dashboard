@@ -7,18 +7,18 @@
 
 1_ Open your editor (VS code) copy this command and paste to your terminal
 
-   command_  git clone [https://github.com/pawangodi/apple-phone-website.git](https://github.com/pawangodi/user_dashboard.git)
+      git clone [https://github.com/pawangodi/apple-phone-website.git](https://github.com/pawangodi/user_dashboard.git)
      
 2_ Navigate to project directory using cd command
 
-   command_ cd ..
+      cd ..
 
 3_ Insatll all dependency by using command .
 
-    command_  npm i 
+      npm i 
    
-    Alternate yarn install
+     yarn install
 
 4_ After the dependency are installed you can run this command and start the application into your local machine.
   
-    command_ npm run dev
+     npm run dev
