@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  
+  .add-button {
+    background-color:#646865 ;
+    color: white;
+  }
+  
+  .add-button:hover {
+    background-color: #454945;
+    border-radius: 20px;
+    transition: .1s;
+  }
+
+  
+  .error-message {
+    color: #f44336;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffebee;
+    border-radius: 4px;
+    animation: loading 2 infinite ;
+  }
+
+
+  
+  /* paination styles */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .pagination button {
+    padding: 8px 16px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .app {
+      padding: 10px;
+    }
+  }
+
+
+  /* User form component */
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group label{
+  font-weight: 600;
+  font-size: 16px;
+  
+}
+
+.form-group input{
+  border: 2px rgb(206, 68, 68) ;
+  background-color: white;
+  text-indent: 20px;
+  padding: 5px 0px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.error{
+ border:1px solid rgb(235, 41, 41) !important ;
+}
+
+.error-text{
+    color: rgb(204, 53, 53);
+}
+
+/* user List Compoent */
+
+.table-row td , th{
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
